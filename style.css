@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* #575a62;
+#e4d8d6;
+#71a9e3;
+#2f73ba; */
+
+
+a {
+  font-family: "open sans", sans-serif;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #fff;
+}
+
+a:hover, a:active {
+  color: #ffe99d;
+}
+
+button {
+  background-image: linear-gradient(to right bottom, #71a9e3, #2f73ba);
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 100px;
+}
+
+footer {
+  background-image: linear-gradient(to right bottom, #71a9e3, #2f73ba);
+  height: 110px;
+  margin-top: 70px;
+  position: relative;
+}
+
+footer > p {
+  bottom: 15px;
+  font-family: "open sans", sans-serif;
+  font-size: 12px;
+  left: 15px;
+  position: absolute;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h2:not(:last-child) {
+  margin: 50px 0;
+}
+
+h1, h2 {
+  color: #0f1108;
+  font-family: Lustria, serif;
+  text-align: center;
+}
+
+input {
+  color: #0f1108;
+  font-size: 16px;
+  height: 50px;
+  width: 300px;
+}
+
+nav {
+  align-items: center;
+  background-image: linear-gradient(to right bottom, #71a9e3, #2f73ba);
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+p {
+  color: #0f1108;
+  font-family: "open sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form__input {
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.3),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-start;
+  width: 500px;
+}
+
+.hero img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.portfolio-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+}
+
+.portfolio-images img {
+  align-self: center;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.3),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.6);
+  display: flex;
+  width: 65%;
+}
+
+.portfolio-images img:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  height: 100%;
+}
