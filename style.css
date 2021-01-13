@@ -8,12 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* #575a62;
-#e4d8d6;
-#71a9e3;
-#2f73ba; */
-
-
 a {
   font-family: "open sans", sans-serif;
   text-decoration: none;
@@ -107,6 +101,7 @@ p {
 .contact-form {
   display: flex;
   justify-content: center;
+  outline: none;
 }
 
 .contact-form__input {
@@ -114,7 +109,8 @@ p {
     0 0.6rem 2rem 0 rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: flex-start;
-  width: 500px;
+  outline: none;
+  width: 400px;
 }
 
 .hero img {
