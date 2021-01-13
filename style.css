@@ -23,6 +23,7 @@ a:hover, a:active {
 
 button {
   background-image: linear-gradient(to right bottom, #71a9e3, #2f73ba);
+  border: none;
   color: #fff;
   font-size: 16px;
   height: 50px;
@@ -65,6 +66,7 @@ h1, h2 {
 }
 
 input {
+  border: none;
   color: #0f1108;
   font-size: 16px;
   height: 50px;
@@ -77,6 +79,7 @@ nav {
   display: flex;
   height: 50px;
   justify-content: center;
+  position: relative;
 }
 
 nav ul {
@@ -105,12 +108,16 @@ p {
 }
 
 .contact-form__input {
-  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.3),
-    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: flex-start;
   outline: none;
   width: 400px;
+}
+
+.desktop {
+  display: none;
 }
 
 .hero img {
@@ -138,4 +145,21 @@ p {
 
 .wrapper {
   height: 100%;
+}
+
+@media all and (min-width: 600px) {
+  nav {
+    justify-content: flex-end;
+  }
+
+  .desktop {
+    color: #fff;
+    display: inline;
+    left: 10px;
+    position: absolute;
+  }
+
+  .mobile {
+    display: none;
+  }
 }
